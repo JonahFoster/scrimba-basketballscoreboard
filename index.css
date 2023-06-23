@@ -1,0 +1,50 @@
+@font-face {
+    src: url(CursedTimerUlil-Aznm.ttf);
+    font-family: "CursedTimer"
+}
+
+body {
+    margin: 0;
+    background: #0C4A6E;
+    color: #EEEEEE;
+    font-family: "CursedTimer"
+}
+
+h3 {
+    font-size: 35px;
+    margin-bottom: -65px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+button {
+    background: transparent;
+    border: solid 2px white;
+    font-family: "CursedTimer";
+    font-size: 20px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+button:hover {
+    border: solid 2px #FCD34D;
+}
+
+.score {
+    font-size: 70px;
+    background: black;
+    color: red;
+    padding: 40px 20px 40px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.score-column {
+    text-align: center;
+}
