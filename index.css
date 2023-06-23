@@ -8,6 +8,7 @@ body {
     background: #0C4A6E;
     color: #EEEEEE;
     font-family: "CursedTimer"
+    max-width: 600px;
 }
 
 h3 {
